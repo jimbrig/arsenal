@@ -11,3 +11,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Language: es
 LazyData: true
+URL: https://github.com/jimbrig2011/arsenal
+BugReports: https://github.com/jimbrig2011/arsenal/issues
