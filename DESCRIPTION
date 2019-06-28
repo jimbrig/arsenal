@@ -14,3 +14,15 @@ LazyData: true
 URL: https://github.com/jimbrig2011/arsenal
 BugReports: https://github.com/jimbrig2011/arsenal/issues
 RoxygenNote: 6.1.1
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+Imports: 
+    tibble,
+    lubridate,
+    dplyr,
+    magrittr,
+    stringr,
+    purrr
+VignetteBuilder: knitr
