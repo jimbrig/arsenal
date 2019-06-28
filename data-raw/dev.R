@@ -31,10 +31,6 @@ use_code_of_conduct()
 use_lifecycle_badge("Experimental")
 use_news_md()
 
-# test
-use_testthat()
-use_test("my-test")
-
 # rmd template setup
 use_rmarkdown_template()
 
@@ -57,6 +53,11 @@ use_r("utils")
 # make vignette
 use_vignette("workflow", title = "Workflow")
 
+# CI / Code Coverage
 use_travis()
 use_appveyor()
 use_coverage()
+
+# test
+use_testthat()
+use_test("dates")
