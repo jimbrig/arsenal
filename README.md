@@ -7,24 +7,38 @@
 [![Codecov test coverage](https://codecov.io/gh/jimbrig2011/arsenal/branch/master/graph/badge.svg)](https://codecov.io/gh/jimbrig2011/arsenal?branch=master)
 <!-- badges: end -->
 
-The goal of arsenal is to ...
+The goal of arsenal is to arm R developers with helpful functions and ideas.
 
 ## Installation
 
-You can install the released version of arsenal from [CRAN](https://CRAN.R-project.org) with:
+You can install the development version of arsenal from [Github](https://github.com) with:
 
 ``` r
-install.packages("arsenal")
+devtools::install_github("jimbrig2011/arsenal")
 ```
 
-## Example
+## TODO:
 
-This is a basic example which shows you how to solve a common problem:
+* Data Import Functions
+  + Reading from various formats
+  + Merging across Excel tabs / directory files
+  + Preliminary Validation of Data
+* Data Cleasing Functions
+  + Renaming
+  + NAs
+  + Etc.
+* Data Manipulation Functions
+  + Actuarial Variables
+* Caching
+* Archiving
+* Project Mgmt
+* Templates
+* Shiny Development with Modules
+* Workflows
 
-``` r
-library(arsenal)
-## basic example code
-```
+## Examples
+
+
 Please note that the 'arsenal' project is released with a
 [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
 By contributing to this project, you agree to abide by its terms.
