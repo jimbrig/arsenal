@@ -27,6 +27,7 @@ devtools::document()
 
 # readme and news
 use_readme_md()
+use_code_of_conduct()
 use_lifecycle_badge("Experimental")
 use_news_md()
 
@@ -55,3 +56,7 @@ use_r("utils")
 
 # make vignette
 use_vignette("workflow", title = "Workflow")
+
+use_travis()
+use_appveyor()
+use_coverage()

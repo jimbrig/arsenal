@@ -17,3 +17,15 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(arsenal)
 ```
+
+# Project Workflow Using Arsenal Package
+
+The arsenal package is a set of helpful utility functions focused on streamlining
+data science projects in the real world (as opposed to academic research).
+
+The package focuses on these main areas that tend to create the most issues
+in data driven projects in an enterprise environment:
+
+1. Raw Data Processing
+2. Project and Time Management
+3. Reproducible Analysis and Portability of Projects
