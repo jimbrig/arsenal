@@ -1,17 +1,13 @@
 Package: arsenal
-Title: Various Utility Functions
+Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Jimmy",
            family = "Briggs",
            role = c("aut", "cre"),
            email = "jimmy.briggs@oliverwyman.com")
-Description: Helps people out.
+Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Language: es
 LazyData: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.1
-Suggests: 
-    testthat (>= 2.1.0)
