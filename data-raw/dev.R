@@ -61,3 +61,7 @@ use_coverage()
 # test
 use_testthat()
 use_test("dates")
+
+# flipTime package for "AsDate" function:
+install_github("Displayr/flipTime")
+use_dev_package("flipTime")

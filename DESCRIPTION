@@ -25,5 +25,8 @@ Imports:
     dplyr,
     magrittr,
     stringr,
-    purrr
+    purrr,
+    flipTime (>= 2.9.0)
 VignetteBuilder: knitr
+Remotes:  
+    Displayr/flipTime

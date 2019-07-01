@@ -11,10 +11,10 @@ start_of_month(date)
 end_of_month(date)
 }
 \arguments{
-\item{date}{date}
+\item{date}{Input date (can be character string or a date object)}
 }
 \value{
-start or end of month as a date
+Date object containing the Start or End Date of the specified input date's month.
 }
 \description{
 Start / End of Month Functions
@@ -22,4 +22,7 @@ Start / End of Month Functions
 \examples{
 start_of_month(Sys.Date())
 end_of_month(Sys.Date())
+
+start_of_month("2019-05-31")
+end_of_month("January 15, 2001")
 }
