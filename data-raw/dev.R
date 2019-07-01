@@ -49,6 +49,9 @@ use_package("purrr")
 
 # start building functions..
 use_r("utils")
+use_r("dates")
+use_r("files")
+use_r("setup")
 
 # make vignette
 use_vignette("workflow", title = "Workflow")
@@ -61,7 +64,8 @@ use_coverage()
 # test
 use_testthat()
 use_test("dates")
+use_test("files")
 
 # flipTime package for "AsDate" function:
-install_github("Displayr/flipTime")
+# install_github("Displayr/flipTime")
 use_dev_package("flipTime")

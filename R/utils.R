@@ -11,36 +11,9 @@
 NULL
 
 ## quiets concerns of R CMD check re: the .'s that appear in pipelines
-if(getRversion() >= "2.15.1")  utils::globalVariables(c("."))
+if (getRversion() >= "2.15.1")  utils::globalVariables(c("."))
 
-#' List files removing all temporary / internal unwanted files
-#'
-#' @param path Path to list files from
-#' @param pat Optional pattern to match. Defaults to NULL
-#' @param full Logical whether to return full path or not. Defaults to TRUE
-#' @param named Logical to return names or not
-#'
-#' @return A character vector containing the names of the files in the specified
-#'   directories excluding any temporary unwanted files (i.e. "~$file.xlsx").
-#'
-#' @importFrom purrr discard
-#' @importFrom stringr str_detect fixed
-#'
-#' @export
-#'
-#' @examples
-#' list_files(getwd())
-list_files <- function(path, pat = NULL, full = TRUE, named = FALSE){
 
-  hold <- list.files(path, pattern = pat, full.names = full) %>%
-    purrr::discard(stringr::str_detect(string = .,
-                                       pattern = stringr::fixed("~$")))
-
-  if (named) names(hold) <- list.files(path, pattern = pat, full.names = FALSE)
-
-  return(hold)
-
-}
 
 
 #' #' Pull numbers from a string
