@@ -1,4 +1,18 @@
-#' List directories excluding temporary, Rproj, and git removing internal
+#' List directories excluding Rproj or git
+#'
+#' @param path Valid path
+#'
+#' @return a logical
+#' @noRd
+#'
+list_dirs <- function(path = ".", recursive = TRUE) {
+  res <- list.dirs(path = path, recursive = recursive)
+  res <- res[!grepl(pattern = "\\.Rproj", x = res)]
+  res <- res[!grepl(pattern = "\\.git", x = res)]
+  return(res)
+}
+
+#' List files excluding temporary, Rproj, and git removing internal
 #' undesired files
 #'
 #' @param path (String) Valid path

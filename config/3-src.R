@@ -12,6 +12,13 @@ use_package("stringr")
 use_package("purrr")
 # use_package("fs")
 
+use_package("shiny")
+use_package("shinydashboard")
+use_package("rstudioapi")
+use_package("shinyWidgets")
+use_package("htmltools")
+use_package("usethis")
+
 # install.packages("R.utils")
 # use_package("R.utils")
 

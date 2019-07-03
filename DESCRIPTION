@@ -27,6 +27,12 @@ Imports:
     stringr,
     purrr,
     flipTime (>= 2.9.0),
+    shiny,
+    shinydashboard,
+    rstudioapi,
+    shinyWidgets,
+    htmltools,
+    usethis
 VignetteBuilder: knitr
 Remotes: 
     Displayr/flipTime
