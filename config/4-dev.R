@@ -26,6 +26,7 @@ use_r("project_templates")
 use_r("addins")
 use_r("shinyutils")
 use_r("tryalert")
+#use_r("")
 
 # rmd template setup
 use_rmarkdown_template()
