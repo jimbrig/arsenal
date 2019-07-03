@@ -2,7 +2,7 @@
 % Please edit documentation in R/files.R
 \name{list_files}
 \alias{list_files}
-\title{List directories excluding temporary, Rproj, and git removing internal
+\title{List files excluding temporary, Rproj, and git removing internal
 undesired files}
 \usage{
 list_files(path, pat = NULL, full = FALSE, named = FALSE)
@@ -21,7 +21,7 @@ A character vector containing the files in the specified directory
 excluding any temporary unwanted files (i.e. "~$file.xlsx"), Rproj files, and git files.
 }
 \description{
-List directories excluding temporary, Rproj, and git removing internal
+List files excluding temporary, Rproj, and git removing internal
 undesired files
 }
 \examples{
