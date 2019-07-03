@@ -16,6 +16,8 @@
 #'
 #' @examples
 #' list_files(getwd())
+#' @importFrom purrr discard
+#' @importFrom stringr str_detect fixed
 list_files <- function(path, pat = NULL, full = FALSE, named = FALSE){
 
   hold <- list.files(path, pattern = pat, full.names = full) %>%

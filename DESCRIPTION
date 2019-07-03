@@ -1,12 +1,12 @@
 Package: arsenal
-Title: What the Package Does (One Line, Title Case)
+Title: Useful tools to arm R developers
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Jimmy",
            family = "Briggs",
            role = c("aut", "cre"),
            email = "jimmy.briggs@oliverwyman.com")
-Description: What the package does (one paragraph).
+Description: This package is meant to help R developers.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Language: es
@@ -26,7 +26,7 @@ Imports:
     magrittr,
     stringr,
     purrr,
-    flipTime (>= 2.9.0)
+    flipTime (>= 2.9.0),
 VignetteBuilder: knitr
-Remotes:  
+Remotes: 
     Displayr/flipTime

@@ -6,3 +6,6 @@
 ^appveyor\.yml$
 ^codecov\.yml$
 ^CODE_OF_CONDUCT\.md$
+^config$
+^R/dev$
+^data/README\.md$

@@ -4,9 +4,9 @@
 \name{arsenal-package}
 \alias{arsenal}
 \alias{arsenal-package}
-\title{arsenal: What the Package Does (One Line, Title Case)}
+\title{arsenal: Useful tools to arm R developers}
 \description{
-What the package does (one paragraph).
+This package is meant to help R developers.
 }
 \seealso{
 Useful links:
