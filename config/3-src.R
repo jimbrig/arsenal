@@ -19,6 +19,9 @@ use_package("shinyWidgets")
 use_package("htmltools")
 use_package("usethis")
 
+use_package("miniUI")
+use_package("markdown")
+
 # install.packages("R.utils")
 # use_package("R.utils")
 

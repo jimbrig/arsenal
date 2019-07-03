@@ -9,3 +9,4 @@
 ^config$
 ^R/dev$
 ^data/README\.md$
+^\.covrignore$

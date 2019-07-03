@@ -13,6 +13,8 @@ use_travis()
 use_appveyor()
 use_coverage()
 
+use_covr_ignore(c("R/dev", "config"))
+
 use_lifecycle_badge("Experimental")
 use_badge(
   "Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.",

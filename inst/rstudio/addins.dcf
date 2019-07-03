@@ -1,0 +1,15 @@
+Name: New Project
+Description: Initializing a New Project.
+Binding: initProject
+Interactive: true
+
+Name: Quick Script
+Description: Quickly create a new script.
+Binding: quick_script
+Interactive: true
+
+Name: Quick Header
+Description: Quickly Adds Header to a Script.
+Binding: quick_header
+Interactive: false
+
