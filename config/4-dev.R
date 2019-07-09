@@ -72,6 +72,8 @@ usethis::use_covr_ignore(
     "R/project_module.R",
     "R/project_templates.R",
     "R/scripts_module.R",
-    "R/tryalert.R"
+    "R/tryalert.R",
+    "R/shinyutils.R",
+    "R/utils.R"
   )
 )
