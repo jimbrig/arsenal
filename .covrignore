@@ -1,2 +1,11 @@
 R/dev
 config
+R/addins.R
+R/folders_module.R
+R/help.R
+R/init_project.R
+R/onload.R
+R/project_module.R
+R/project_templates.R
+R/scripts_module.R
+R/tryalert.R
