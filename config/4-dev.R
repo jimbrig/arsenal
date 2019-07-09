@@ -77,3 +77,10 @@ usethis::use_covr_ignore(
     "R/utils.R"
   )
 )
+
+usethis::use_pkgdown()
+usethis::use_pkgdown_travis()
+
+devtools::install_github("ropenscilabs/travis")
+
+travis::use_travis_deploy()
