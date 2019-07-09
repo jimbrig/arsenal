@@ -61,3 +61,17 @@ use_test("leftright")
 use_test("dates")
 use_test("files")
 
+test_coverage()
+usethis::use_covr_ignore(
+  c(
+    "R/addins.R",
+    "R/folders_module.R",
+    "R/help.R",
+    "R/init_project.R",
+    "R/onload.R",
+    "R/project_module.R",
+    "R/project_templates.R",
+    "R/scripts_module.R",
+    "R/tryalert.R"
+  )
+)
